@@ -31,24 +31,24 @@ body {
 }
 
 footer {
-  background-color: transparent; /* Fondo transparente */
+  background-color: transparent; 
   text-align: center;
   padding: 10px 0;
 }
 
 footer .page-link {
-  color: rgb(31, 1, 59); /* Color morado oscuro para los números */
-  background-color: transparent; /* Fondo de los botones transparente */
-  border: 1px solid rgb(31, 1, 59); /* Opcional: borde del mismo color */
+  color: rgb(31, 1, 59);
+  background-color: transparent;
+  border: 1px solid rgb(31, 1, 59);
 }
 
 footer .page-link:hover {
-  background-color: rgb(243, 232, 255); /* Fondo al pasar el mouse, opcional */
+  background-color: rgb(243, 232, 255); 
   color: rgb(31, 1, 59);
 }
 
 .custom-card {
-    background-color: #e6ccff; /* Morado clarito */
+    background-color: #e6ccff;
     border: 1px solid #c8a2f0;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(180, 130, 255, 0.3);
