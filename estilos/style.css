@@ -84,7 +84,6 @@ footer .page-link:hover {
 }
 
 .layout {
-        display: flex;
         align-items: flex-start;
     }
 
