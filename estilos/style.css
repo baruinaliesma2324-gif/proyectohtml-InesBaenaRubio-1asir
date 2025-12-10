@@ -83,3 +83,29 @@ footer .page-link:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
 }
+
+.layout {
+        display: flex;
+        align-items: flex-start;
+    }
+
+.barra-lateral {
+        width: 260px;
+        background: #d5afff;
+        color: rgb(0, 0, 0);
+        padding: 20px;
+        height: auto;
+}
+
+.contenido {
+        flex: 1;
+        padding: 40px;
+        background: #eae0ff;
+}
+
+.tarjeta {
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
