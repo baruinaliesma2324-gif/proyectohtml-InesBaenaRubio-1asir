@@ -62,6 +62,75 @@
     <p></p>
     <li>FP de Grado Medio de Sistemas Microinformáticos y Redes (SMR) cursado en el IES Medina Azahara</li>
     </ul>
+      <div class="container">
+        <h1>📉 Tendencia de Precios RAM (DDR5)</h1>
+        <p>Datos de mercado actualizados automáticamente</p>
+        
+        <div class="card">
+            <div id="recommendation" class="status">Cargando análisis...</div>
+            <p>Precio Actual: <span id="current-price">---</span> $</p>
+        </div>
+
+        <div class="card">
+            <canvas id="ramChart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        async function loadData() {
+            // Añadimos un timestamp para evitar que el navegador use caché vieja
+            const response = await fetch('ram_data.json?t=' + new Date().getTime());
+            const data = await response.json();
+
+            // Preparar datos para la gráfica
+            const labels = data.map(d => d.fecha);
+            const prices = data.map(d => d.precio);
+            const lastEntry = data[data.length - 1];
+
+            // Actualizar textos
+            document.getElementById('current-price').innerText = lastEntry.precio;
+            const recElement = document.getElementById('recommendation');
+            recElement.innerText = lastEntry.decision;
+
+            // Colorear la recomendación
+            recElement.className = 'status ' + 
+                (lastEntry.decision.includes('COMPRA') ? 'buy' : 
+                lastEntry.decision.includes('NO') ? 'dont' : 'wait');
+
+            // Crear Gráfica
+            const ctx = document.getElementById('ramChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Precio RAM (USD)',
+                        data: prices,
+                        borderColor: '#00ff88',
+                        backgroundColor: 'rgba(0, 255, 136, 0.1)',
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: { 
+                            beginAtZero: false,
+                            grid: { color: '#444' }
+                        },
+                        x: { display: false } // Ocultar fechas si son muchas
+                    },
+                    plugins: {
+                        legend: { labels: { color: 'white' } }
+                    }
+                }
+            });
+        }
+
+        loadData();
+    </script>
   </div>
   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" 
        data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0"
