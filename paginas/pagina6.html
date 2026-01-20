@@ -39,8 +39,7 @@
         // El '../' le dice al navegador: "sal de 'paginas' y entra en 'scripts'"
         const response = await fetch('../scripts/ram_data.json?t=' + new Date().getTime());
         const data = await response.json();
-        // ... resto del código
-        }
+   
 
             // Preparar datos para la gráfica
             const labels = data.map(d => d.fecha);
