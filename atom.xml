@@ -1,8 +1,8 @@
-<feed xml:lang="es" xml:base="https://baruinaliesma2324-gif/proyectohtml-InesBaenaRubio-1asir/">
+<feed xml:lang="es" xml:base="https://baruinaliesma2324-gif.github.io/proyectohtml-InesBaenaRubio-1asir/">
 <id>https://baruinaliesma2324-gif/proyectohtml-InesBaenaRubio-1asir/</id>
 <title>Mi porfolio</title>
 <updated>2026-01-27T12:44:00+01:00</updated>
-<link rel="alternate" href="https://https://baruinaliesma2324-gif/proyectohtml-InesBaenaRubio-1asir/atom.xml"/>
+<link rel="alternate" href="https://baruinaliesma2324-gif.github.io/proyectohtml-InesBaenaRubio-1asir/"/>
 <author>
 <name>Ines Baena Rubio</name>
 <email>inesbaena1507@gmail.com</email>
@@ -16,8 +16,7 @@
 <logo>f1.jpg</logo>
 <entry>
 <id>
-https://baruinaliesma2324-gif/proyectohtml-InesBaenaRubio-1asir/index.html
-</id>
+https://baruinaliesma2324-gif.github.io/proyectohtml-InesBaenaRubio-1asir/
 <title>Sobre Mi</title>
 <update>2026-01-27T12:44:00+01:00</update>
 <author>
@@ -27,6 +26,6 @@ https://baruinaliesma2324-gif/proyectohtml-InesBaenaRubio-1asir/index.html
 <summary>
 Toda la información sobre mis estudios, los cursos y titulos de idiomas que tengo y mis habilidades mas destacadas
 </summary>
-<link rel="alternate" href="https://baruinaliesma2324-gif/proyectohtml-InesBaenaRubio-1asir/index.html"/>
+<link rel="alternate" href="https://baruinaliesma2324-gif.github.io/proyectohtml-InesBaenaRubio-1asir/"/>
 </entry>
 </feed>
