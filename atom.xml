@@ -1,1 +1,32 @@
-
+<feed xml:lang="es" xml:base="https://baruinaliesma2324-gif/proyectohtml-InesBaenaRubio-1asir/">
+<id>https://baruinaliesma2324-gif/proyectohtml-InesBaenaRubio-1asir/</id>
+<title>Mi porfolio</title>
+<updated>2021-12-21T19:06:00+01:00</updated>
+<link rel="alternate" href="https://https://baruinaliesma2324-gif/proyectohtml-InesBaenaRubio-1asir/atom.xml"/>
+<author>
+<name>Ines Baena Rubio</name>
+<email>inesbaena1507@gmail.com</email>
+</author>
+<category term="Presentacion"/>
+<contributor>
+<name>otro Autor</name>
+<email>otro@gmail.com</email>
+<uri>https://www.linkedin.com/in/otro</uri>
+</contributor>
+<logo>f1.jpg</logo>
+<entry>
+<id>
+https://baruinaliesma2324-gif/proyectohtml-InesBaenaRubio-1asir/index.html
+</id>
+<title>Sobre Mi</title>
+<update>2026-01-27T12:44:00+01:00</update>
+<author>
+<name>Ines Baena Rubio</name>
+<email>inesbaena1507@gmail.com</email>
+</author>
+<summary>
+En este artículo cutre encontraras casi ninguna información sobre Londres
+</summary>
+<link rel="alternate" href="https://baruinaliesma2324-gif/proyectohtml-InesBaenaRubio-1asir/index.html"/>
+</entry>
+</feed>
