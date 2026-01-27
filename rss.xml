@@ -1,1 +1,48 @@
-
+<rss version="2.0">
+<channel>
+<!--Prólogo-->
+<title>Presentación</title>
+<link>https://estherostos.github.io/proyectofhw</link>
+<description>Informacion general sobre mi, lo que estoy haciendo ahora y mas</description>
+<category>Información general</category>
+<copyright>1º ASIR</copyright>
+<image>
+<url>
+https://estherostos.github.io/proyectofhw/viajes.jpg
+</url>
+<title>Presentación</title>
+<link>https://estherostos.github.io/proyectofhw</link>
+<width>30</width>
+<height>30</height>
+</image>
+<language>es-es</language>
+<lastBuildDate>Sun, 05 Dec 2021 12:15:00 +0100</lastBuildDate>
+<webMaster>inesbaena1507@gmail.com</webMaster>
+<!-- Noticias del canal -->
+<item>
+<title>Sobre mi</title>
+<description>
+Mis estudios, los cursos que tengo, mis titulos en idiomas y mis habilidades mas destacables
+</description>
+<link>
+https://estherostos.github.io/proyectofhw/pages/londres.html
+</link>
+<author>inesbaena1507@gmail.com</author>
+<category>Habilidades</category>
+<enclosure url="https://youtu.be/VupykmeN-xM" type="video" length="32572719"/>
+<pubDate>Sun, 05 Dec 2021 12:25:00 +0100</pubDate>
+</item>
+<item>
+<title>Contacto</title>
+<description>
+Todos mis contactos para poder contactar conmigo
+</description>
+<link>
+https://estherostos.github.io/proyectofhw/pages/paris.html
+</link>
+<author>inesbaena1507@gmail.com</author>
+<category>Contacto</category>
+<pubDate>Sun, 05 Dec 2021 12:25:00 +0100</pubDate>
+</item>
+</channel>
+</rss>
