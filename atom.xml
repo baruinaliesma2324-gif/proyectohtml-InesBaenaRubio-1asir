@@ -1,31 +1,50 @@
-<feed xml:lang="es" xml:base="https://baruinaliesma2324-gif.github.io/proyectohtml-InesBaenaRubio-1asir/">
-<id>https://baruinaliesma2324-gif.github.io/proyectohtml-InesBaenaRubio-1asir/</id>
-<title>Mi porfolio</title>
-<updated>2026-01-27T12:44:00+01:00</updated>
-<link rel="alternate" href="https://baruinaliesma2324-gif.github.io/proyectohtml-InesBaenaRubio-1asir/atom.xml"/>
-<author>
-<name>Ines Baena Rubio</name>
-<email>inesbaena1507@gmail.com</email>
-</author>
-<category term="Presentacion"/>
-<contributor>
-<name>otro Autor</name>
-<email>otro@gmail.com</email>
-<uri>https://www.linkedin.com/in/otro</uri>
-</contributor>
-<logo>f1.jpg</logo>
-<entry>
-<id>
-https://baruinaliesma2324-gif.github.io/proyectohtml-InesBaenaRubio-1asir/
-<title>Sobre Mi</title>
-<update>2026-01-27T12:44:00+01:00</update>
-<author>
-<name>Ines Baena Rubio</name>
-<email>inesbaena1507@gmail.com</email>
-</author>
-<summary>
-Toda la información sobre mis estudios, los cursos y titulos de idiomas que tengo y mis habilidades mas destacadas
-</summary>
-<link rel="alternate" href="https://baruinaliesma2324-gif.github.io/proyectohtml-InesBaenaRubio-1asir/"/>
-</entry>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xml:lang="es"
+      xml:base="https://baruinaliesma2324-gif.github.io/proyectohtml-InesBaenaRubio-1asir/">
+
+  <id>https://baruinaliesma2324-gif.github.io/proyectohtml-InesBaenaRubio-1asir/</id>
+  <title>Mi porfolio</title>
+  <updated>2026-01-27T12:44:00+01:00</updated>
+
+  <link rel="self"
+        type="application/atom+xml"
+        href="https://baruinaliesma2324-gif.github.io/proyectohtml-InesBaenaRubio-1asir/atom.xml"/>
+
+  <author>
+    <name>Ines Baena Rubio</name>
+    <email>inesbaena1507@gmail.com</email>
+  </author>
+
+  <category term="Presentacion"/>
+
+  <contributor>
+    <name>otro Autor</name>
+    <email>otro@gmail.com</email>
+    <uri>https://www.linkedin.com/in/otro</uri>
+  </contributor>
+
+  <logo>
+    https://baruinaliesma2324-gif.github.io/proyectohtml-InesBaenaRubio-1asir/f1.jpg
+  </logo>
+
+  <entry>
+    <id>https://baruinaliesma2324-gif.github.io/proyectohtml-InesBaenaRubio-1asir/</id>
+    <title>Sobre Mi</title>
+    <updated>2026-01-27T12:44:00+01:00</updated>
+
+    <author>
+      <name>Ines Baena Rubio</name>
+      <email>inesbaena1507@gmail.com</email>
+    </author>
+
+    <summary>
+      Toda la información sobre mis estudios, los cursos y titulos de idiomas
+      que tengo y mis habilidades mas destacadas
+    </summary>
+
+    <link rel="alternate"
+          href="https://baruinaliesma2324-gif.github.io/proyectohtml-InesBaenaRubio-1asir/"/>
+  </entry>
+
 </feed>
